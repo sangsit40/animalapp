@@ -20,7 +20,7 @@ public class GameActivity extends AppCompatActivity {
     ImageView questionImageView;
     ImageButton volumnImageButton;
     MediaPlayer mediaPlayer;
-    int questionCount = 1;
+    int questionCount = 10;
     ArrayList<Integer> qID = new ArrayList<Integer>();//เป็นตัวชนิดสุ่มคำถามโดยเป็นชนิดจำนวนเต็ม
     String answer;//เป็นตัวแปรไว้เก็บคำตอบ
     int score = 0;//เป็นตัวแปรไว้เก็บคะแนน ค่าเริ่มต้นเป็น0
